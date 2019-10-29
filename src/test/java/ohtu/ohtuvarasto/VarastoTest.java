@@ -131,6 +131,6 @@ public class VarastoTest {
 
     @Test
     public void toStringPalauttaaSaldon() {
-        assertTrue(varasto.toString().contains("saldo"));
+        assertTrue(varasto.toString().contains("saldox"));
     }
 }
