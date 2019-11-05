@@ -18,11 +18,6 @@ public class Varasto {
 
     public Varasto(double tilavuus, double alkuSaldo) { // kuormitetaan
         this(tilavuus);
-        for (int i = 0; i < 100; i++)
-            {
-                System.out.println("this is a test " + i);
-            }
-               
         if (alkuSaldo < 0.0) {
             this.saldo = 0.0;
         } else if (alkuSaldo <= tilavuus) { // mahtuu
